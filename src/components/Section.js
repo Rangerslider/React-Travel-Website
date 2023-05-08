@@ -15,7 +15,7 @@ function Section() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GET STARTED
+          BOOKINGS
         </Button>
         <Button
           className='btns'

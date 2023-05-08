@@ -29,8 +29,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
+            <Link to='/sign-up'>Patners</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
             <Link to='/'>Terms of Service</Link>
@@ -45,11 +44,11 @@ function Footer() {
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
+            <h2>Patners</h2>
+            <Link to='/'>Trip Advisor</Link>
             <Link to='/'>Ambassadors</Link>
             <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <Link to='/'>Hostel Ocan</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
@@ -64,11 +63,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
+              Nuri
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>Nuri © 2023</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
