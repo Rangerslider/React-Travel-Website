@@ -7,6 +7,8 @@ import Service from './components/Home/Service';
 import Packages from './components/Home/Packages.js';
 import SignUp from './components/Home/SignUp';
 
+
+
 function App() {
   return (
     <>
@@ -17,6 +19,7 @@ function App() {
           <Route path='/service' component={Service} />
           <Route path='/packages' component={Packages} />
           <Route path='/sign-up' component={SignUp} />
+          
         </Switch>
       </Router>
     </>
