@@ -7,14 +7,14 @@ video {
   }
   
   .hero-container {
-    /*background: url('/public/videos/beach-3998.mp4') center center/cover no-repeat; */
+    background: url('/src/assests/video-3.mp4') center center/cover no-repeat; 
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(5, 200, 235, 0.2);
+    box-shadow: inset 0 0 0 1000px rgba(5, 201, 235, 0.349);
     object-fit: contain;
   }
   
