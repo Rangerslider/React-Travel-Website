@@ -19,6 +19,7 @@ function App() {
           <Route path='/service' component={Service} />
           <Route path='/packages' component={Packages} />
           <Route path='/sign-up' component={SignUp} />
+         
           
         </Switch>
       </Router>

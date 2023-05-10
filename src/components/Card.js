@@ -16,7 +16,7 @@ function Card() {
               path='/services'
             />
             <CardItem
-              src='images/img-14.jpg'
+              src='images/img-11.jpg'
               text='Travel through the Islands of Bali in a Private Cruise'
               label='Luxury'
               path='/services'
@@ -30,8 +30,8 @@ function Card() {
               path='/services'
             />
             <CardItem
-              src='images/img-11.jpg'
-              text='Experience Swim on Top of the SeaBeach '
+              src='images/img-16.jpg'
+              text='Experience Boating on Top of the SeaBeach '
               label='Adventure'
               path='/products'
             />

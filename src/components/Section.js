@@ -2,11 +2,12 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './Section.css';
+import  assests from  '../assests/video-3.mp4'
 
 function Section() {
   return (
-    <div className='hero-container'>
-      {/* <video src='src/assests/video-2.mp4' autoPlay loop muted />  */}
+<div className='hero-container'>
+      <video src={assests} autoPlay loop muted />
       <h1>ADVENTURE AWAITS</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
@@ -15,7 +16,7 @@ function Section() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          BOOKINGS
+          GET STARTED
         </Button>
         <Button
           className='btns'
