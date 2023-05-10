@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Service from './components/Home/Service';
 import Packages from './components/Home/Packages.js';
 import SignUp from './components/Home/SignUp';
+import Contact from './components/Home/contact.js';
+
 
 
 
@@ -19,8 +21,9 @@ function App() {
           <Route path='/service' component={Service} />
           <Route path='/packages' component={Packages} />
           <Route path='/sign-up' component={SignUp} />
-         
-          
+          <Route path='/sign-up' component={SignUp} />
+          <Route path='/sign-up' component={SignUp} />
+          <Route path='/contact' component={Contact} />
         </Switch>
       </Router>
     </>
